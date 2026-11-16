@@ -1,0 +1,10 @@
+{
+  "name": "custom-provider",
+  "version": "1.3.0",
+  "description": "Manage custom OpenAI-compatible and Anthropic-compatible providers and models inside OpenCode Desktop.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./gui-experimental": "./gui-experimental.cjs"
+  }
+}
